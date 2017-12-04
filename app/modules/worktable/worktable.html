@@ -1,0 +1,17 @@
+<!-- Created by: fei on date: 2017/8/15. -->
+
+<!--head-->
+<div ng-include="'app/modules/header/header.html'"></div>
+<!--main-->
+<div ng-controller="worktableCtrl" >
+    <div ng-class="{true:'add-sidebar', false:'remove-sidebar'}[ifShowSidebar]" class="work-table">
+        <!--侧边栏-->
+        <div class="work-table-side">
+            <div ng-include="'app/modules/sidebar/sidebar.html'"></div>
+        </div>
+        <!--内容-->
+        <div class="work-table-main">
+            <fei-tags tag-list="tagList.tTop"></fei-tags>
+        </div>
+    </div>
+</div>
