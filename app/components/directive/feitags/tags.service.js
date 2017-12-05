@@ -17,7 +17,6 @@ app.service("tagService", function ($q, $rootScope) {
         }
     }
 
-
     /**
      * 打开一个标签页
      * @param data
