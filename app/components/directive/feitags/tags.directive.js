@@ -10,7 +10,7 @@ app.directive("feiTags", function () {
         scope: {
             tagInfo: "=tagList"
         },
-        templateUrl: "app/directive/feitags/tags.html",
+        templateUrl: "app/components/directive/feitags/tags.html",
         controller: function ($scope, $rootScope) {
             //切换标签页
             $scope.toggleSidebar = function () {
